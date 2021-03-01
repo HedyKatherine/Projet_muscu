@@ -1,6 +1,12 @@
 body
 {
-    background-image: url(images/nathan-dumlao-pzLbV-NFT40-unsplash.jpg);
+    background: url(images/Hnet.com-image\ \(6\).jpg) no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
 }
 
 nav
@@ -17,9 +23,10 @@ li
     list-style-type: none;
     background-color: white;
     border: 1px pink solid;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     padding: 10px 15px;
     text-align: center;
+    font-size: 4em;
 }
 
 a
@@ -28,13 +35,30 @@ a
     text-decoration: none;
 }
 
-
-.croix_nav
+a i
 {
-    width: 20%;
+    color: white;
 }
 
 .croix_nav
+{
+    /*width: 20%;*/
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.fa-customize
+{
+    font-size: 100px;
+}
+
+.nav
+{
+    margin-top: 100px;
+}
+
+/*.croix_nav
 {
     width: 80%;
-}
+}*/
