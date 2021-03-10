@@ -17,15 +17,16 @@ h1
 
 a
 {
+    text-decoration: none;
     list-style-type: none;
     font-weight: bold;
-    color: grey;
+    color: #FC3C2A;
 }
 
 .evenements a:hover
 {
-    border-left: #FC3C2A;
-    color: #FC3C2A;
+    border-left: black;
+    color: black;
     font-weight: normal;
 }
 
