@@ -1,39 +1,25 @@
-body
-{
-    text-align: center;
-}
-
-h1, .majuscule
-{
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2
-{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
 
 .nutrition h2, .quotidien h2
 {
-    color: black;
+    color: #FC3C2A;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
 }
 
 a
 {
+    
     list-style-type: none;
     font-weight: bold;
     text-decoration:none;
     font-family: 'Roboto Mono', monospace;
+    color: #FC3C2A;
 }
 
 .evenements a:hover
 {
-    border-left: coral;
-    color: coral;
+    border-left: black;
+    color: black;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
     text-decoration:none;
@@ -66,18 +52,6 @@ h1
     font-family: 'Roboto', sans-serif;
 }
 
-a
-{
-    list-style-type: none;
-    font-weight: bold;
-}
-
-.evenements a:hover
-{
-    border-left: #FC3C2A;
-    color: #FC3C2A;
-    font-weight: normal;
-}
 
 p {
     padding: 20px;
@@ -111,6 +85,4 @@ h2 {
     margin-top: -100px;
 }
 
-.coachs{
-    padding: 20px;
-}
+

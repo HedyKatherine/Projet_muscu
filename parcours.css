@@ -2,15 +2,18 @@ body
 {
   text-align: center;
 }
-h1, .majuscule
+
+h1
 {
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 a
 {
-  list-style-type: none;
-  font-weight: bold;
+  text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    color: #FC3C2A;
 }
 .evenements a:hover
 {
@@ -22,12 +25,9 @@ p {
   padding: 20px;
   font-family: 'Roboto Mono', monospace;
 }
-h1, h2 {
-  font-family: 'Roboto Mono', monospace;
-  color: #FC3C2A;
-}
+
 .photo_menu {
-  background-image: url("images/portic.jpg");
+  background-image: url("images/abdo.png");
   background-size: cover;
   height: 1000px;
   width: 100%;
@@ -43,5 +43,8 @@ h1, h2 {
 .titre{
   margin-top: -100px;
 }
-.coachs{
-  padding: 20px;
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #FC3C2A;
+}
